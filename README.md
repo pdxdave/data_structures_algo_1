@@ -1,6 +1,6 @@
 # data_structures_algo_1
 
-Python does not have a static array data type. However, """Lists""" are built on dynamic arrays.     
+Python does not have a static array data type. However, '''Lists''' are built on dynamic arrays.     
 An array is a data structure that organizes items sequentially. Each position in an array has an index. The first position in an array has an index of 0.
 
 - Search 0(1): To look up an item by index in an array is constant time (O(1).    

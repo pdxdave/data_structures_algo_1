@@ -17,4 +17,16 @@ An array is a data structure that organizes items sequentially. Each position in
 
 - Slicing an array cost: you are actually allocating a new list. Second, you copy all of the items in your slice from the original array into the newly allocated list. This means that you have an O(n) time cost (for the copying) and an O(n) space cost for the newly allocated list.    
 
-### in-place vs out-of-place altorithms. 
+### in-place vs out-of-place algorithms. 
+
+- in-place: In general these create create additional variales that are 0(1) space.  The do have side effects though.  Only use them if you are space constrained.
+```
+
+def test_me(num_list):
+  for idx, item in enumerate(num_list):
+    num_list[idx] += 2
+
+num_list = [1,2,3]
+test_me(num_list)
+print(num_list)
+```

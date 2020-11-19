@@ -12,3 +12,7 @@ An array is a data structure that organizes items sequentially. Each position in
 
 #### Stengths: Static arrays are great because they allow fast lookups and fast appends 0(1). 
 #### Weaknesses: The primary weakness of a static array is that it has a fixed size. Another weakness is the linear time insertions and deletions
+
+- Slicing an array cost: you are actually allocating a new list. Second, you copy all of the items in your slice from the original array into the newly allocated list. This means that you have an O(n) time cost (for the copying) and an O(n) space cost for the newly allocated list.    
+
+

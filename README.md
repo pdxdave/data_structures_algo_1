@@ -17,4 +17,4 @@ An array is a data structure that organizes items sequentially. Each position in
 
 - Slicing an array cost: you are actually allocating a new list. Second, you copy all of the items in your slice from the original array into the newly allocated list. This means that you have an O(n) time cost (for the copying) and an O(n) space cost for the newly allocated list.    
 
-
+### in-place vs out-of-place altorithms. 

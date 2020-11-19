@@ -30,3 +30,21 @@ num_list = [1,2,3]
 test_me(num_list)
 print(num_list)
 ```
+
+- out-of-place: The better choice. They copy the data structures or objects before manipulating them.
+```
+def test_me(num_list):
+
+  doing_it = [None] * len(num_list)     // new var holding data
+
+  for idx, item in enumerate(num_list): // loop through input
+    doing_it[idx] = item * 2            // add results to new var
+
+  return doing_it                       // return new var
+
+num_list = [1,2,3]
+num_list = test_me(num_list)
+print(num_list)                         // print results of new var
+```
+
+

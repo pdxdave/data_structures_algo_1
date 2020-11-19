@@ -19,7 +19,7 @@ An array is a data structure that organizes items sequentially. Each position in
 
 ### in-place vs out-of-place algorithms. 
 
-- in-place: In general these create create additional variales that are 0(1) space.  The do have side effects though.  Only use them if you are space constrained.
+- in-place: In general these create additional variales that are 0(1) space.  The do have side effects though.  Only use them if you are space constrained.
 ```
 
 def test_me(num_list):
